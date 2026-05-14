@@ -1,0 +1,44 @@
+Rocket binary log decode summary
+================================
+
+Input file: FLIGHT66.BIN
+Magic: b'FLT1'
+Version: 2
+Header size: 16 bytes
+Record size: 165 bytes
+Python V1 record size: 115 bytes
+Python V2 record size: 165 bytes
+Start ms: 13679
+Records: 63609
+Duration: 1272.507 s
+CRC OK records: 63609 / 63609
+Attitude valid records: 63609 / 63609
+Navigation valid records: 63609 / 63609
+
+Euler angle ranges
+------------------
+Roll:  -18.41 to 180.00 deg
+Pitch: 11.07 to 90.00 deg
+Yaw:   -180.00 to 180.00 deg
+
+Video real-time sync info
+-------------------------
+Recorded data duration: 1272.507 s
+Position/orientation video FPS: 30
+Position/orientation video frame count: 300
+Position/orientation video duration: 10.000 s
+Position/orientation video currently plays at: 127.251x real-time
+To make position/orientation video real-time, set video speed to: 0.007859x
+Equivalent editor speed percent: 0.786%
+Plain language: slow down by 127.251x if the video is too fast.
+
+Satellite overlay video real-time sync info
+-------------------------------------------
+Satellite video FPS: 20
+Satellite video max frame count setting: 450
+Satellite video estimated frame count: 450
+Satellite video estimated duration: 22.500 s
+Satellite video currently plays at: 56.556x real-time
+To make satellite video real-time, set video speed to: 0.017682x
+Equivalent editor speed percent: 1.768%
+Plain language: slow down by 56.556x if the video is too fast.
