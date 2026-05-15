@@ -1,0 +1,32 @@
+Rocket binary log decode summary, no GPS
+========================================
+
+Input file: FLIGHT00.BIN
+Magic: b'FLT1'
+Version: 2
+Header size: 16 bytes
+Record size: 165 bytes
+Python V1 record size: 115 bytes
+Python V2 record size: 165 bytes
+Start ms: 15501
+Records: 6298
+Duration: 126.045 s
+CRC OK records: 6298 / 6298
+Attitude valid records: 6298 / 6298
+
+Euler angle ranges
+------------------
+Roll:  -7.84 to 180.00 deg
+Pitch: 56.46 to 90.00 deg
+Yaw:   -179.92 to 180.00 deg
+
+Orientation video real-time sync info
+-------------------------------------
+Recorded data duration: 126.045 s
+Orientation video FPS: 30
+Orientation video frame count: 300
+Orientation video duration: 10.000 s
+Orientation video currently plays at: 12.604x real-time
+To make orientation video real-time, set video speed to: 0.079337x
+Equivalent editor speed percent: 7.934%
+Plain language: slow down by 12.604x if the video is too fast.

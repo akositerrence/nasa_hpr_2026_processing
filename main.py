@@ -13,7 +13,7 @@ import requests
 from PIL import Image
 from io import BytesIO
 
-INPUT_FILE = "FLIGHT66.BIN"
+INPUT_FILE = "FLIGHT00.BIN"
 OUTPUT_DIR = None
 MAKE_PLOTS = True
 MAKE_VIDEO = True
